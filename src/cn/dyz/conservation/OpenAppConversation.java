@@ -14,10 +14,9 @@ public class OpenAppConversation extends Conversation{
 	}
 
 	@Override
-	public void process(IoSession session, Response response) throws Exception {
+	public void doHandle(IoSession session, Response response) throws Exception {
 		String str = response.getString();
 		System.out.println("open APP,server response: "+str);
-		startNext();
 	}
 
 }

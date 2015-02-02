@@ -28,7 +28,7 @@ public class ConversationChain {
 			head = converstation;
 			current = converstation;
 		}else{
-			current.addNext(converstation);
+			current.appendNext(converstation);
 			current=converstation;
 		}
 		converstation.setNetSupport(netSupport);

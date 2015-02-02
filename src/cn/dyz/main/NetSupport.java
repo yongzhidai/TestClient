@@ -26,7 +26,6 @@ import java.net.SocketAddress;
 
 import org.apache.mina.core.filterchain.IoFilter;
 import org.apache.mina.core.future.ConnectFuture;
-import org.apache.mina.core.future.WriteFuture;
 import org.apache.mina.core.service.IoHandler;
 import org.apache.mina.core.session.IoSession;
 import org.apache.mina.filter.codec.ProtocolCodecFilter;

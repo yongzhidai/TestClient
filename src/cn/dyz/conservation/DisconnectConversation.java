@@ -13,7 +13,7 @@ public class DisconnectConversation extends Conversation{
 	}
 
 	@Override
-	public void process(IoSession session, Response response) throws Exception {
+	public void doHandle(IoSession session, Response response) throws Exception {
 		
 	}
 

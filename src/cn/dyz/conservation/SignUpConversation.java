@@ -14,11 +14,10 @@ public class SignUpConversation extends Conversation{
 
 
 	@Override
-	public void process(IoSession session, Response response) throws Exception {
+	public void doHandle(IoSession session, Response response) throws Exception {
 		boolean b = response.getBoolean();
 		if(b){
 			System.out.println("注册成功");
-			startNext();
 		}else{
 			System.out.println("注册失败");
 		}
